@@ -166,6 +166,14 @@
       ]
     },
     {
+      "slug": "Glitchez",
+      "name": "Glitchez",
+      "description": "Glitch Generator",
+      "tags": [
+        "Noise"
+      ]
+    },
+    {
       "slug": "Lorenz",
       "name": "Lorenz",
       "description": "Lorenz Attractor",
@@ -207,6 +215,24 @@
       "description": "Rectify/Combine 2 mono signals",
       "tags": [
         "Waveshaper"
+      ]
+    },
+
+    {
+      "slug": "MTM9",
+      "name": "MTM-9",
+      "description": "Multi Transpose and Merge 9 Channel",
+      "tags": [
+        "Utility"
+      ]
+    },
+
+    {
+      "slug": "MTMF9",
+      "name": "FINE-9",
+      "description": "Multi Fine Transpose and Merge 9 Channel",
+      "tags": [
+        "Utility"
       ]
     }
   ]

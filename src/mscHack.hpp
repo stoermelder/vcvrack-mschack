@@ -61,5 +61,8 @@ extern Model *modelMorze;
 extern Model *modelWindz;
 extern Model *modelLorenz;
 extern Model *modelAlienz;
+extern Model *modelGlitchez;
 extern Model *modelOSC_WaveMorph_3;
 extern Model *modelMaude_221;
+extern Model *modelMTM9;
+extern Model *modelMTMF9;
