@@ -41,6 +41,15 @@
     },
 
     {
+      "slug": "Tremolio9",
+      "name": "Tremolio 9",
+      "description": "9 Channel Tremolo Envelope Generator",
+      "tags": [
+        "Envelope"
+      ]
+    },
+
+    {
       "slug": "TriadSeq2",
       "name": "Triad 2 Sequencer",
       "description": "3 Channel Keyboard Sequencer",

@@ -37,6 +37,7 @@ __attribute__((__visibility__("default"))) void init(rack::Plugin *p)
     p->addModel(modelGlitchez);
     p->addModel(modelOSC_WaveMorph_3);
     p->addModel(modelMaude_221);
+    p->addModel(modelTremolio9);
     p->addModel(modelMTM9);
     p->addModel(modelMTMF9);
 }
