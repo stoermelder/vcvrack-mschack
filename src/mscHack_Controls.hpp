@@ -2631,10 +2631,22 @@ struct MyPortInSmall : SvgPort
 {
     MyPortInSmall()
     {
-        setSvg(APP->window->loadSvg(asset::plugin(thePlugin, "res/mschack_PortIn_small.svg")));
+        setSvg(Svg::load(asset::plugin(thePlugin, "res/mschack_PortIn_small.svg")));
         // setSvg( SVG::load(asset::plugin(thePlugin, "res/mschack_PortIn_small.svg" ) ) );
         // wrap();
         // box.size = background->box.size;
+    }
+};
+
+//-----------------------------------------------------
+// Procedure:   MyPortInSmall
+//
+//-----------------------------------------------------
+struct MyPortInTiny : SvgPort 
+{
+    MyPortInTiny() 
+    {
+        setSvg(Svg::load(asset::plugin(thePlugin, "res/mschack_PortIn_tiny.svg")));
     }
 };
 
@@ -2646,10 +2658,22 @@ struct MyPortOutSmall : SvgPort
 {
     MyPortOutSmall()
     {
-        setSvg(APP->window->loadSvg(asset::plugin(thePlugin, "res/mschack_PortOut_small.svg")));
+        setSvg(Svg::load(asset::plugin(thePlugin, "res/mschack_PortOut_small.svg")));
         // setSvg( SVG::load(asset::plugin(thePlugin, "res/mschack_PortOut_small.svg" ) ) );
         // background->wrap();
         // box.size = background->box.size;
+    }
+};
+
+//-----------------------------------------------------
+// Procedure:   MyPortOutSmall
+//
+//-----------------------------------------------------
+struct MyPortOutTiny : SvgPort 
+{
+    MyPortOutTiny() 
+    {
+        setSvg(Svg::load(asset::plugin(thePlugin, "res/mschack_PortOut_tiny.svg")));
     }
 };
 
